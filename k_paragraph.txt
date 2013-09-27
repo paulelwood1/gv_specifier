@@ -1,0 +1,86 @@
+K Valve
+
+With this text file you can modify the sentences as they appear in the descriptive paragraphs pertaining to the K Valve.
+
+Please disregard all ampersands.
+
+
+
+Finishes
+
+Fabricated Polished #4
+&k_internal_fp4=The internal will be finished to #4 satin polish (180 to 240 grit) with an external #2 appearance finish.&
+
+Mirror Polished #7
+&k_internal_mp7=The internal will be finished to #7 mirror polish (240 to 320 grit) with an external #2 appearance finish.&
+
+Fabricated #2
+&k_internal_f2=The internal will be finished to Fabricated #2.&
+
+
+
+Seats
+
+Teflon FDA
+&k_seat_teflonfda=The seat ring will be virgin Teflon.&
+
+Stellite
+&k_seat_stellite=The seat ring will be Stellite # 21 and the shut-off disc will be overlaid with Stellite # 6 in the sealing area.&
+
+Drilling
+Tri Clamp
+&k_drilling_triclamp=Two quick clamps will be supplied for the inlet and outlet ports.&
+
+No Clamps
+&k_drilling_noclamps=The valve will contain no clamps.
+
+Operators
+
+No Operator
+&k_op_none1=The valve will be supplied bare shaft suitable for mounting of a double acting actuator with ISO 5211 &
+&k_op_none2= mounting pattern.&
+
+Manual Lever
+&k_op_manual=The valve will be operated by a manual lever.&
+
+Air - Double cting
+&k_op_double=The valve will be operated by a double-acting pneumatic actuator requiring 80 PSI air supply.&
+
+Air - Spring Return
+&k_op_spring=The valve will be operated by a spring-return fail-closed pneumatic actuator requiring 80 PSI air supply.&
+
+
+
+Control
+
+Solenoid
+&k_control_solenoid=The actuator will be controlled by a NAMUR, pad mounted, normally closed, single solenoid control valve.&
+
+Pneumatic Positioner
+&k_control_pneu=The actuator will be controlled by a pneumatic positioner accepting a 3 to 15 PSI control signal supplied by others.&
+
+Electro-Pneumatic Positioner
+&k_conrol_electro=The actuator will be controlled by a electro-pneumatic positioner accepting a 4 to 20 mili amp signal supplied by others.&
+
+
+
+Electrical Classes
+
+Wash Down NEMA 4
+&k_ec_washdown=Electrical equipment will meet NEMA 4 for wash down environment rated for &
+
+X-Proof NEMA 7&9
+&k_ec_xproof=Electrical equipment will meet NEMA 7 and 9 for explosion proof environment rated for &
+
+Intrinsically Safe
+&k_ec_is=Electrical equipment will be rated intrinsically safe.&
+
+
+
+
+Feedback
+
+Position Indicator
+&k_position_ind=Feedback will be supplied by two limit switches and a ANSI black and yellow visual open/closed inicator.&
+&k_vis_beacon=Feedback will be supplied by a ANSI black and yellow visual open/closed indicator.&
+

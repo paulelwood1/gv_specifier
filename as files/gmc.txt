@@ -1,0 +1,401 @@
+onClipEvent(enterFrame) {
+	// GMC VALVE PRICING
+	//valve price
+	if(_root.valve == "GMC Valve") {
+		if(_root.material == "Stainless 316L/CF3M") {
+		if(_root.size == "03") {
+			_root.valve_price = parseInt(_root.g_stainless_03);
+		}
+		else if(_root.size == "04") {
+			_root.valve_price = parseInt(_root.g_stainless_04);
+		}
+		else if(_root.size == "06") {
+			_root.valve_price = parseInt(_root.g_stainless_06);
+		}
+		else if(_root.size == "08") {
+			_root.valve_price = parseInt(_root.g_stainless_08);
+		}
+		else if(_root.size == "10") {
+			_root.valve_price = parseInt(_root.g_stainless_10);
+		}
+		else if(_root.size == "12") {
+			_root.valve_price = parseInt(_root.g_stainless_12);
+		}
+		else if(_root.size == "14") {
+			_root.valve_price = parseInt(_root.g_stainless_14);
+		}
+		else if(_root.size == "16") {
+			_root.valve_price = parseInt(_root.g_stainless_16);
+		}
+	}
+	else if(_root.material == "Carbon Steel") {
+		if(_root.size == "03") {
+			_root.valve_price = parseInt(_root.g_carbon_03);
+		}
+		else if(_root.size == "04") {
+			_root.valve_price = parseInt(_root.g_carbon_04);
+		}
+		else if(_root.size == "06") {
+			_root.valve_price = parseInt(_root.g_carbon_06);
+		}
+		else if(_root.size == "08") {
+			_root.valve_price = parseInt(_root.g_carbon_08);
+		}
+		else if(_root.size == "10") {
+			_root.valve_price = parseInt(_root.g_carbon_10);
+		}
+		else if(_root.size == "12") {
+			_root.valve_price = parseInt(_root.g_carbon_12);
+		}
+		else if(_root.size == "14") {
+			_root.valve_price = parseInt(_root.g_carbon_14);
+		}
+		else if(_root.size == "16") {
+			_root.valve_price = parseInt(_root.g_carbon_16);
+		}
+	}
+	else if(_root.material == "Hastelloy") {
+		if(_root.size == "03") {
+			_root.valve_price = parseInt(_root.g_hastelloy_03);
+		}
+		else if(_root.size == "04") {
+			_root.valve_price = parseInt(_root.g_hastelloy_04);
+		}
+		else if(_root.size == "06") {
+			_root.valve_price = parseInt(_root.g_hastelloy_06);
+		}
+		else if(_root.size == "08") {
+			_root.valve_price = parseInt(_root.g_hastelloy_08);
+		}
+		else if(_root.size == "10") {
+			_root.valve_price = parseInt(_root.g_hastelloy_10);
+		}
+		else if(_root.size == "12") {
+			_root.valve_price = parseInt(_root.g_hastelloy_12);
+		}
+		else if(_root.size == "14") {
+			_root.valve_price = parseInt(_root.g_hastelloy_14);
+		}
+		else if(_root.size == "16") {
+			_root.valve_price = parseInt(_root.g_hastelloy_16);
+		}
+	}
+	//finish price
+	if(_root.finish == "Fabricated #2") {
+		if(_root.size == "03") {
+			_root.finish_price = parseInt(_root.g_fabricated2_03);
+		}
+		else if(_root.size == "04") {
+			_root.finish_price = parseInt(_root.g_fabricated2_04);
+		}
+		else if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.g_fabricated2_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.g_fabricated2_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.g_fabricated2_10);
+		}
+		else if(_root.size == "12") {
+			_root.finish_price = parseInt(_root.g_fabricated2_12);
+		}
+		else if(_root.size == "14") {
+			_root.finish_price = parseInt(_root.g_fabricated2_14);
+		}
+		else if(_root.size == "16") {
+			_root.finish_price = parseInt(_root.g_fabricated2_16);
+		}
+	}
+	else if(_root.finish == "Fabricated Polished #4") {
+		if(_root.size == "03") {
+			_root.finish_price = parseInt(_root.g_fabricated_polished4_03);
+		}
+		else if(_root.size == "04") {
+			_root.finish_price = parseInt(_root.g_fabricated_polished4_04);
+		}
+		else if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.g_fabricated_polished4_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.g_fabricated_polished4_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.g_fabricated_polished4_10);
+		}
+		else if(_root.size == "12") {
+			_root.finish_price = parseInt(_root.g_fabricated_polished4_12);
+		}
+		else if(_root.size == "14") {
+			_root.finish_price = parseInt(_root.g_fabricated_polished4_14);
+		}
+		else if(_root.size == "16") {
+			_root.finish_price = parseInt(_root.g_fabricated_polished4_16);
+		}
+	}
+	else if(_root.finish == "Mirror Polished #7") {
+		if(_root.size == "03") {
+			_root.finish_price = parseInt(_root.g_mirror_polished7_03);
+		}
+		else if(_root.size == "04") {
+			_root.finish_price = parseInt(_root.g_mirror_polished7_04);
+		}
+		else if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.g_mirror_polished7_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.g_mirror_polished7_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.g_mirror_polished7_10);
+		}
+		else if(_root.size == "12") {
+			_root.finish_price = parseInt(_root.g_mirror_polished7_12);
+		}
+		else if(_root.size == "14") {
+			_root.finish_price = parseInt(_root.g_mirror_polished7_14);
+		}
+		else if(_root.size == "16") {
+			_root.finish_price = parseInt(_root.g_mirror_polished7_16);
+		}
+	}
+	//drilling price
+	if(_root.drilling == "ANSI 150") {
+		if(_root.size == "03") {
+			_root.drilling_price = parseInt(_root.g_ansi_03);
+		}
+		else if(_root.size == "04") {
+			_root.drilling_price = parseInt(_root.g_ansi_04);
+		}
+		else if(_root.size == "06") {
+			_root.drilling_price = parseInt(_root.g_ansi_06);
+		}
+		else if(_root.size == "08") {
+			_root.drilling_price = parseInt(_root.g_ansi_08);
+		}
+		else if(_root.size == "10") {
+			_root.drilling_price = parseInt(_root.g_ansi_10);
+		}
+		else if(_root.size == "12") {
+			_root.drilling_price = parseInt(_root.g_ansi_12);
+		}
+		else if(_root.size == "14") {
+			_root.drilling_price = parseInt(_root.g_ansi_14);
+		}
+		else if(_root.size == "16") {
+			_root.drilling_price = parseInt(_root.g_ansi_16);
+		}
+	}
+	//seat price
+	if(_root.seat == "Stellite") {
+		if(_root.size == "03") {
+			_root.seat_price = parseInt(_root.g_stellite_03);
+		}
+		else if(_root.size == "04") {
+			_root.seat_price = parseInt(_root.g_stellite_04);
+		}
+		else if(_root.size == "06") {
+			_root.seat_price = parseInt(_root.g_stellite_06);
+		}
+		else if(_root.size == "08") {
+			_root.seat_price = parseInt(_root.g_stellite_08);
+		}
+		else if(_root.size == "10") {
+			_root.seat_price = parseInt(_root.g_stellite_10);
+		}
+		else if(_root.size == "12") {
+			_root.seat_price = parseInt(_root.g_stellite_12);
+		}
+		else if(_root.size == "14") {
+			_root.seat_price = parseInt(_root.g_stellite_14);
+		}
+		else if(_root.size == "16") {
+			_root.seat_price = parseInt(_root.g_stellite_16);
+		}
+	}
+	else if(_root.seat == "Teflon") {
+		if(_root.size == "03") {
+			_root.seat_price = parseInt(_root.g_teflon_03);
+		}
+		else if(_root.size == "04") {
+			_root.seat_price = parseInt(_root.g_teflon_04);
+		}
+		else if(_root.size == "06") {
+			_root.seat_price = parseInt(_root.g_teflon_06);
+		}
+		else if(_root.size == "08") {
+			_root.seat_price = parseInt(_root.g_teflon_08);
+		}
+		else if(_root.size == "10") {
+			_root.seat_price = parseInt(_root.g_teflon_10);
+		}
+		else if(_root.size == "12") {
+			_root.seat_price = parseInt(_root.g_teflon_12);
+		}
+		else if(_root.size == "14") {
+			_root.seat_price = parseInt(_root.g_teflon_14);
+		}
+		else if(_root.size == "16") {
+			_root.seat_price = parseInt(_root.g_teflon_16);
+		}
+	}
+	//service price
+	if(_root.service == "Dust Tight") {
+		if(_root.size == "03") {
+			_root.service_price = parseInt(_root.g_dust_03);
+		}
+		else if(_root.size == "04") {
+			_root.service_price = parseInt(_root.g_dust_04);
+		}
+		else if(_root.size == "06") {
+			_root.service_price = parseInt(_root.g_dust_06);
+		}
+		else if(_root.size == "08") {
+			_root.service_price = parseInt(_root.g_dust_08);
+		}
+		else if(_root.size == "10") {
+			_root.service_price = parseInt(_root.g_dust_10);
+		}
+		else if(_root.size == "12") {
+			_root.service_price = parseInt(_root.g_dust_12);
+		}
+		else if(_root.size == "14") {
+			_root.service_price = parseInt(_root.g_dust_14);
+		}
+		else if(_root.size == "16") {
+			_root.service_price = parseInt(_root.g_dust_16);
+		}
+	}
+	else if(_root.service == "Vacuum") {
+		if(_root.size == "03") {
+			_root.service_price = parseInt(_root.g_vacuum_03);
+		}
+		else if(_root.size == "04") {
+			_root.service_price = parseInt(_root.g_vacuum_04);
+		}
+		else if(_root.size == "06") {
+			_root.service_price = parseInt(_root.g_vacuum_06);
+		}
+		else if(_root.size == "08") {
+			_root.service_price = parseInt(_root.g_vacuum_08);
+		}
+		else if(_root.size == "10") {
+			_root.service_price = parseInt(_root.g_vacuum_10);
+		}
+		else if(_root.size == "12") {
+			_root.service_price = parseInt(_root.g_vacuum_12);
+		}
+		else if(_root.size == "14") {
+			_root.service_price = parseInt(_root.g_vacuum_14);
+		}
+		else if(_root.size == "16") {
+			_root.service_price = parseInt(_root.g_vacuum_16);
+		}
+	}
+	// operator price
+	if(_root.operator == "No Operator") {
+		if(_root.size == "03") {
+			_root.operator_price = parseInt(_root.g_none_03);
+		}
+		else if(_root.size == "04") {
+			_root.operator_price = parseInt(_root.g_none_04);
+		}
+		else if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.g_none_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.g_none_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.g_none_10);
+		}
+		else if(_root.size == "12") {
+			_root.operator_price = parseInt(_root.g_none_12);
+		}
+		else if(_root.size == "14") {
+			_root.operator_price = parseInt(_root.g_none_14);
+		}
+		else if(_root.size == "16") {
+			_root.operator_price = parseInt(_root.g_none_16);
+		}
+	}
+	else if(_root.operator == "Manual Lever") {
+		if(_root.size == "03") {
+			_root.operator_price = parseInt(_root.g_manual_03);
+		}
+		else if(_root.size == "04") {
+			_root.operator_price = parseInt(_root.g_manual_04);
+		}
+		else if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.g_manual_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.g_manual_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.g_manual_10);
+		}
+		else if(_root.size == "12") {
+			_root.operator_price = parseInt(_root.g_manual_12);
+		}
+		else if(_root.size == "14") {
+			_root.operator_price = parseInt(_root.g_manual_14);
+		}
+		else if(_root.size == "16") {
+			_root.operator_price = parseInt(_root.g_manual_16);
+		}
+	}
+	else if(_root.operator == "Air - Double Acting") {
+		if(_root.size == "03") {
+			_root.operator_price = parseInt(_root.g_double_acting_03);
+		}
+		else if(_root.size == "04") {
+			_root.operator_price = parseInt(_root.g_double_acting_04);
+		}
+		else if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.g_double_acting_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.g_double_acting_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.g_double_acting_10);
+		}
+		else if(_root.size == "12") {
+			_root.operator_price = parseInt(_root.g_double_acting_12);
+		}
+		else if(_root.size == "14") {
+			_root.operator_price = parseInt(_root.g_double_acting_14);
+		}
+		else if(_root.size == "16") {
+			_root.operator_price = parseInt(_root.g_double_acting_16);
+		}
+	}
+	else if(_root.operator == "Air - Spring Return") {
+		if(_root.size == "03") {
+			_root.operator_price = parseInt(_root.g_spring_return_03);
+		}
+		else if(_root.size == "04") {
+			_root.operator_price = parseInt(_root.g_spring_return_04);
+		}
+		else if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.g_spring_return_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.g_spring_return_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.g_spring_return_10);
+		}
+		else if(_root.size == "12") {
+			_root.operator_price = parseInt(_root.g_spring_return_12);
+		}
+		else if(_root.size == "14") {
+			_root.operator_price = parseInt(_root.g_spring_return_14);
+		}
+		else if(_root.size == "16") {
+			_root.operator_price = parseInt(_root.g_spring_return_16);
+		}
+	}
+	}
+}

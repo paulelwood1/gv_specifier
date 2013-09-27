@@ -1,0 +1,49 @@
+Help Text
+
+note:(These messages will appear when one clicks the "?" question mark button to the left of a menu)
+
+formula:(&help_subject=message)
+
+
+&help_valve=Go to products overview for descriptions of typical uses of each modle.
+
+&help_material=Material of construction
+The powders and/or solvents to be processed will dictate the product contact material. Cast Iron, Carbon Steels, and Aluminum can be used for many industrial applications. Corrosive processes will call for the use of Stainless Steel, and in some cases material laden with solvents or other corrosives will justify the extra expense of using Hastelloy‚ or other high nickel alloy to prolong valve life. 
+For Stainless Steel valves of welded construction, 316L grade is preferred. It is more corrosion resistant than 316 Stainless Steel, and the lower carbon content prevents carbon precipitating from the welded joints.
+Standard materials are offered by product. Most valve can be manufactured from any weldbale alloy. Contact us for engineered valve pricing.
+
+&help_size=Size is usally deticated by existing equipment. If your are starting from scratch contac us for typical flow rates through a rane of port openings.
+
+&help_finish=Finish is typically determined by cleanliness. The sanitary requirements of the process will govern the surface finishes and other sanitary options. We define our finishes as follows:
+
+No surface finish (Ra) specified. Sometimes referred to as "mill finish" or "as cast". Fabricated valves will only have the internal welds ground smooth and flush. Common in general industrial applications where cross contamination or cleanability are not a concern.
+
+#2 finish - Ra 33 to 65 microinch - 150 to 180 grit. Also referred to as "buffed, blended or uniform appearance finish". Often specified for the outside of equipment that will be washed down.
+
+#4 polish - Ra 16 to 32 microinch - 180 to 240 grit. All fabrication and handling marks removed. Surface is buffed to a uniform satin finish. The #4 polish is typical for the interior of equipment that needs to be cleaned between batches to prevent cross contamination.
+
+#7 polish - Ra 10 to 15 microinch - 240 to 320 grit. All surface imperfections are repaired. Often referred to as "pit free" and "mirror finish". Used for high purity applications such as processing potent pharmaceutical actives. Also used for products that tend to adhere to surfaces.
+
+For automatic cleaning, spray balls or jets should be considered. Contact us for more information.
+
+&help_drilling=Mounting arrangements
+The typical ANSI 150 # and DIN drilling is used as an industry standard for heavy duty and high performance models. Quick clamps can also be used for applications up to 30PSI (2bar) and port sizes up to 10".
+P21 and TLD valves will include blind tapped holes, which may be a problem if the valve is mating with existing blind tapped holes. Another option is to choose the T valve with oversized flanges, which allows for through holes. For regular duty service valves, ANSI and DIN bolting can be overkill and alternative Gemco standard bolting patterns are available.  
+&help_seat=Very abrasive material will tend to dictate using metal seats versus the more commonly used reinforced Teflon seats. The metal seal will give longer life and can be used at higher temperatures than Teflon but the shut-off sealing is limited to dust tight, ANSI class IV or ANSI class V. Reinforced Teflon can be used up to 450 degrees F (230 C), and provide Class VI shut-off.
+ 
+&help_service=Pick from standard options listed or contact us for other engineered options. 
+&help_operator=As with other quarter turn valves; levers, gear drives or chain operators are available. Pneumatic and hydraulic, operators are available in double acting or fail-safe modes. Pneumatic operation should be the first choice for price, reliability, and speed. When handling solids a higher factor of safety is used to calculate seat torque requirements. The factor is typically 1.5 instead of the 1.25 used for liquid and gas valve calculations. 
+For solids that "set-up" or harden oversized actuator and specially designed discs that can break through the hardened cake are used. Actuators are typically sized for 80-PSI (5.3 bar) pressure. If the available supply air pressure is dependably higher (100 to 120PSI) or lower (40 to 60 PSI), this will factor in the sizing of the actuator.
+
+For fail-safe operation, spring return actuators are the norm. When a spring return type actuator is used, it is oversized to compensate for the spring as well as the unseating, run, and seating torque required for valve operation. This can lead to weight and space problems as well as extra cost. An alternate fail-safe option is to use a double acting actuator with a pneumatic accumulator sufficiently sized to close the valve. If there is a loss of pneumatic pressure, a pressure switch activates the accumulator and operates the valve.
+
+&help_control=Flow Control
+Fast acting (1 to 5 seconds), quarter turn valves are ideal for flow control of solids. A pneumatic (3 to 15 PSI) or electro-pneumatic (4 to 20 milliampere) positioner can take a signal from a manual adjusted pressure regulator, or from a computer controller. The pneumatic positioner is often used in manually operated filling stations, while the electro-pneumatic positioner is typical for automatic loss-in-weight systems.
+ 
+&help_feedback=Pick from standard options listed or contact us for other engineered options.
+ 
+&help_electrical_class=NEMA 4 wash dowin is standard. Explosion NEMA 7 and 9 and IS intrically safe are offered as options. Other classification are offer as engineered options.
+
+&help_voltage=Pick from standard options listed or contact us for other engineered options.
+
+&help_oring=Help text needed for O-rings in help.txt&

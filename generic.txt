@@ -1,0 +1,36 @@
+Generic Variables
+
+
+
+Valve Control
+formula:(control=price)
+
+&solenoid=195
+&pneumatic=789
+&electro_pneumatic=1649
+
+
+
+Valve Feedback
+formula:(feedback=price)
+
+&pos_ind=284
+&visual_beacon=96
+
+
+
+Electrical Class
+formula:(electricalclass=price)
+
+&washdown=0
+&xproof=200
+&intsafe=300
+
+
+
+Voltage
+formula:(voltage=price)
+
+&v_24vdc=55
+&v_120v60=0
+&v_240v50=95

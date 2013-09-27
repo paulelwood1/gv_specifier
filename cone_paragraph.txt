@@ -1,0 +1,116 @@
+Cone Valve
+
+With this text file you can modify the sentences as they appear in the descriptive paragraphs pertaining to the Cone Valve.
+
+Please disregard all ampersands.
+
+
+
+Materials
+
+Stainless 316L/CF3M
+&c_mat_stainless=The valve body is 316L sst and the shut-off disc is ANSI CF8M. The stem is 316 Stainless steel with reinforced Teflon bushings.&
+
+Carbon Steel
+&c_mat_carbon=The valve body is carbon steel and the shut-off disc is ANSI CF8M. The stem is 316 Stainless steel with reinforced Teflon bushings.&
+
+Hastelloy
+&c_mat_hastelloy=The valve body, shut-off disc are Hastelloy C276. The stem is Hastelloy with reinforced Teflon bushings.&
+
+
+
+
+Finishes
+
+Fabricated Polished #4
+&c_internal_fp4=The internal will be finished to # 4 satin polish (180 to 240 grit) with an external #2 appearance finish.&
+
+Mirror Polished #7
+&c_internal_mp7=The internal will be finished to # 7 mirror polish (240 to 320 grit) with an external #2 appearance finish.&
+
+Fabricated #2
+&c_internal_f2=Internal welds will be ground smooth and flush, external mill finish.&
+
+
+
+
+Drilling
+
+ANSI 150
+&c_drilling_coverclamps=The drilling will be Cover Clamps&
+&c_drilling_gemco=The drilling will be Gemco Standard.&
+
+
+
+
+Seats
+
+Stellite
+&c_seat_stellite=The seat ring will be Stellite # 21 and the shut-off disc will be overlaid with Stellite # 6 in the sealing area.&
+
+Teflon
+&c_seat_teflon=The seat ring will be reinforced PTFE.&
+
+
+
+
+Service
+
+Dust Tight
+&c_service_dust=The shut-off is rated ANSI Class I dust tight service.&
+
+
+
+
+Operators
+
+No Operator
+&c_op_none1=The valve will be supplied bare shaft suitable for mounting of a double acting actuator with ISO 5211 &
+&c_op_none2= mounting pattern.&
+
+Manual Lever
+&c_op_manual=The valve will be operated by a manual lever.&
+
+Air - Double cting
+&c_op_double=The valve will be operated by a double-acting pneumatic actuator requiring 80 PSI air supply.&
+
+Air - Spring Return
+&c_op_spring=The valve will be operated by a spring-return fail-closed pneumatic actuator requiring 80 PSI air supply.&
+
+
+
+Control
+
+Solenoid
+&c_control_solenoid=The actuator will be controlled by a NAMUR, pad mounted, normally closed, single solenoid control valve.&
+
+Pneumatic Positioner
+&c_control_pneu=The actuator will be controlled by a pneumatic positioner accepting a 3 to 15 PSI control signal supplied by others.&
+
+Electro-Pneumatic Positioner
+&c_control_electro=The actuator will be controlled by a electro-pneumatic positioner accepting a 4 to 20 mili amp signal supplied by others.&
+
+
+
+Electrical Classes
+
+Wash Down NEMA 4
+&c_ec_washdown=Electrical equipment will meet NEMA 4 for wash down environment rated for &
+
+X-Proof NEMA 7&9
+&c_ec_xproof=Electrical equipment will meet NEMA 7&9 for explosion proof environment rated for &
+
+Intrinsically Safe
+&c_ec_is=Electrical equipment will be rated intrinsically safe.&
+
+
+
+
+Feedback
+
+Position Indicator
+&c_position_ind=Feedback will be supplied by two limit switches and a ANSI black and yellow visual open/closed indicator.&
+
+Visible Beacon
+&c_vis_beacon=Feedback will be supplied by a ANSI black and yellow visual open/closed indicator.&
+

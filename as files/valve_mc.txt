@@ -1,0 +1,42 @@
+onClipEvent(enterFrame) {
+	//requirements permanent as long as Valve still selected
+	//so changing an option above a required option will not reset it
+	if(_root.valve == "K Valve") {
+		_root.material = "Stainless 316L/CF3M";
+		_root.material_disp = "Stainless 316L/CF3M";
+		_root.service = "Dust Tight";
+		_root.service_disp = "Dust Tight";
+	}
+	if(_root.valve == "Airlock Valve") {
+		_root.material = "Stainless 316L/CF3M";
+		_root.material_disp = "Stainless 316L/CF3M";
+		_root.service = "Dust Tight";
+		_root.service_disp = "Dust Tight";
+	}
+	else if(_root.valve == "Sani Valve") {
+		_root.material = "Stainless 316L/CF3M";
+		_root.material_disp = "Stainless 316L/CF3M";
+		_root.service = "Dust Tight";
+		_root.service_disp = "Dust Tight";
+	}
+	else if(_root.valve == "P21 Valve") {
+		_root.drilling = "ANSI 150";
+		_root.drilling_disp = "ANSI 150";
+	}
+	else if(_root.valve == "D2 Diverter Valve") {
+		_root.service = "Dust Tight";
+		_root.service_disp = "Dust Tight";
+	}
+	else if(_root.valve == "Retractable Sleeve") {
+		_root.service = "Dust Tight";
+		_root.service_disp = "Dust Tight";
+	}
+	else if(_root.valve == "GMC Valve") {
+		_root.drilling = "ANSI 150";
+		_root.drilling_disp = "ANSI 150";
+	}
+	else if(_root.valve == "Cone Valve") {
+		_root.service = "Dust Tight";
+		_root.service_disp = "Dust Tight";
+	}
+}

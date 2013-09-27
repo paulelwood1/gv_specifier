@@ -1,0 +1,176 @@
+onClipEvent(enterFrame) {
+	// CONE VALVE PRICING
+	//valve price
+	if(_root.valve == "Cone Valve") {
+		if(_root.material == "Stainless 316L/CF3M") {
+		if(_root.size == "06") {
+			_root.valve_price = parseInt(_root.c_stainless_06);
+		}
+		else if(_root.size == "08") {
+			_root.valve_price = parseInt(_root.c_stainless_08);
+		}
+		else if(_root.size == "10") {
+			_root.valve_price = parseInt(_root.c_stainless_10);
+		}
+	}
+	else if(_root.material == "Carbon Steel") {
+		if(_root.size == "06") {
+			_root.valve_price = parseInt(_root.c_carbon_06);
+		}
+		else if(_root.size == "08") {
+			_root.valve_price = parseInt(_root.c_carbon_08);
+		}
+		else if(_root.size == "10") {
+			_root.valve_price = parseInt(_root.c_carbon_10);
+		}
+	}
+	else if(_root.material == "Hastelloy") {
+		if(_root.size == "06") {
+			_root.valve_price = parseInt(_root.c_hastelloy_06);
+		}
+		else if(_root.size == "08") {
+			_root.valve_price = parseInt(_root.c_hastelloy_08);
+		}
+		else if(_root.size == "10") {
+			_root.valve_price = parseInt(_root.c_hastelloy_10);
+		}
+	}
+	//finish price
+	if(_root.finish == "Fabricated #2") {
+		if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.c_fabricated2_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.c_fabricated2_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.c_fabricated2_10);
+		}
+	}
+	else if(_root.finish == "Fabricated Polished #4") {
+		if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.c_fabricated_polished4_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.c_fabricated_polished4_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.c_fabricated_polished4_10);
+		}
+	}
+	else if(_root.finish == "Mirror Polished #7") {
+		if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.c_mirror_polished7_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.c_mirror_polished7_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.c_mirror_polished7_10);
+		}
+	}
+	//drilling price
+	if(_root.drilling == "Cover Clamps") {
+		if(_root.size == "06") {
+			_root.drilling_price = parseInt(_root.c_coverclamps_06);
+		}
+		else if(_root.size == "08") {
+			_root.drilling_price = parseInt(_root.c_coverclamps_08);
+		}
+		else if(_root.size == "10") {
+			_root.drilling_price = parseInt(_root.c_coverclamps_10);
+		}
+	}
+	else if(_root.drilling == "Gemco Standard") {
+		if(_root.size == "06") {
+			_root.drilling_price = parseInt(_root.c_gemco_06);
+		}
+		else if(_root.size == "08") {
+			_root.drilling_price = parseInt(_root.c_gemco_08);
+		}
+		else if(_root.size == "10") {
+			_root.drilling_price = parseInt(_root.c_gemco_10);
+		}
+	}
+	//seat price
+	if(_root.seat == "Stellite") {
+		if(_root.size == "06") {
+			_root.seat_price = parseInt(_root.c_stellite_06);
+		}
+		else if(_root.size == "08") {
+			_root.seat_price = parseInt(_root.c_stellite_08);
+		}
+		else if(_root.size == "10") {
+			_root.seat_price = parseInt(_root.c_stellite_10);
+		}
+	}
+	else if(_root.seat == "Teflon") {
+		if(_root.size == "06") {
+			_root.seat_price = parseInt(_root.c_teflon_06);
+		}
+		else if(_root.size == "08") {
+			_root.seat_price = parseInt(_root.c_teflon_08);
+		}
+		else if(_root.size == "10") {
+			_root.seat_price = parseInt(_root.c_teflon_10);
+		}
+	}
+	//service price
+	if(_root.service == "Dust Tight") {
+		if(_root.size == "06") {
+			_root.service_price = parseInt(_root.c_dust_06);
+		}
+		else if(_root.size == "08") {
+			_root.service_price = parseInt(_root.c_dust_08);
+		}
+		else if(_root.size == "10") {
+			_root.service_price = parseInt(_root.c_dust_10);
+		}
+	}
+	// operator price
+	if(_root.operator == "No Operator") {
+		if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.c_none_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.c_none_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.c_none_10);
+		}
+	}
+	else if(_root.operator == "Manual Lever") {
+		if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.c_manual_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.c_manual_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.c_manual_10);
+		}
+	}
+	else if(_root.operator == "Air - Double Acting") {
+		if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.c_double_acting_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.c_double_acting_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.c_double_acting_10);
+		}
+	}
+	else if(_root.operator == "Air - Spring Return") {
+		if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.c_spring_return_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.c_spring_return_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.c_spring_return_10);
+		}
+	}
+	}
+}

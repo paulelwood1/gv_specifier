@@ -1,0 +1,230 @@
+onClipEvent(enterFrame) {
+	// DOUBLE DUMP (AIRLOCK) VALVE PRICING
+	//valve price
+	if(_root.valve == "Airlock Valve") {
+		if(_root.size == "03") {
+			_root.valve_price = parseInt(_root.dd_valve_03);
+		}
+		else if(_root.size == "04") {
+			_root.valve_price = parseInt(_root.dd_valve_04);
+		}
+		else if(_root.size == "06") {
+			_root.valve_price = parseInt(_root.dd_valve_06);
+		}
+		else if(_root.size == "08") {
+			_root.valve_price = parseInt(_root.dd_valve_08);
+		}
+		else if(_root.size == "10") {
+			_root.valve_price = parseInt(_root.dd_valve_10);
+		}
+	//finish price
+	if(_root.finish == "Fabricated #2") {
+		if(_root.size == "03") {
+			_root.finish_price = parseInt(_root.dd_fabricated2_03);
+		}
+		else if(_root.size == "04") {
+			_root.finish_price = parseInt(_root.dd_fabricated2_04);
+		}
+		else if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.dd_fabricated2_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.dd_fabricated2_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.dd_fabricated2_10);
+		}
+	}
+	else if(_root.finish == "Fabricated Polished #4") {
+		if(_root.size == "03") {
+			_root.finish_price = parseInt(_root.dd_fabricated_polished4_03);
+		}
+		else if(_root.size == "04") {
+			_root.finish_price = parseInt(_root.dd_fabricated_polished4_04);
+		}
+		else if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.dd_fabricated_polished4_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.dd_fabricated_polished4_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.dd_fabricated_polished4_10);
+		}
+	}
+	else if(_root.finish == "Mirror Polished #7") {
+		if(_root.size == "03") {
+			_root.finish_price = parseInt(_root.dd_mirror_polished7_03);
+		}
+		else if(_root.size == "04") {
+			_root.finish_price = parseInt(_root.dd_mirror_polished7_04);
+		}
+		else if(_root.size == "06") {
+			_root.finish_price = parseInt(_root.dd_mirror_polished7_06);
+		}
+		else if(_root.size == "08") {
+			_root.finish_price = parseInt(_root.dd_mirror_polished7_08);
+		}
+		else if(_root.size == "10") {
+			_root.finish_price = parseInt(_root.dd_mirror_polished7_10);
+		}
+	}
+	//drilling price
+	if(_root.drilling == "Tri Clamp") {
+		if(_root.size == "03") {
+			_root.drilling_price = parseInt(_root.dd_triclamp_03);
+		}
+		else if(_root.size == "04") {
+			_root.drilling_price = parseInt(_root.dd_triclamp_04);
+		}
+		else if(_root.size == "06") {
+			_root.drilling_price = parseInt(_root.dd_triclamp_06);
+		}
+		else if(_root.size == "08") {
+			_root.drilling_price = parseInt(_root.dd_triclamp_08);
+		}
+		else if(_root.size == "10") {
+			_root.drilling_price = parseInt(_root.dd_triclamp_10);
+		}
+	}
+	else if(_root.drilling == "No Clamps") {
+		if(_root.size == "03") {
+			_root.drilling_price = parseInt(_root.dd_noclamps_03);
+		}
+		else if(_root.size == "04") {
+			_root.drilling_price = parseInt(_root.dd_noclamps_04);
+		}
+		else if(_root.size == "06") {
+			_root.drilling_price = parseInt(_root.dd_noclamps_06);
+		}
+		else if(_root.size == "08") {
+			_root.drilling_price = parseInt(_root.dd_noclamps_08);
+		}
+		else if(_root.size == "10") {
+			_root.drilling_price = parseInt(_root.dd_noclamps_10);
+		}
+	}
+	//seat price
+	if(_root.seat == "Teflon FDA") {
+		if(_root.size == "03") {
+			_root.seat_price = parseInt(_root.dd_teflonfda_03);
+		}
+		else if(_root.size == "04") {
+			_root.seat_price = parseInt(_root.dd_teflonfda_04);
+		}
+		else if(_root.size == "06") {
+			_root.seat_price = parseInt(_root.dd_teflonfda_06);
+		}
+		else if(_root.size == "08") {
+			_root.seat_price = parseInt(_root.dd_teflonfda_08);
+		}
+		else if(_root.size == "10") {
+			_root.seat_price = parseInt(_root.dd_teflonfda_10);
+		}
+	}
+	else if(_root.seat == "Stellite") {
+		if(_root.size == "03") {
+			_root.seat_price = parseInt(_root.dd_stellite_03);
+		}
+		else if(_root.size == "04") {
+			_root.seat_price = parseInt(_root.dd_stellite_04);
+		}
+		else if(_root.size == "06") {
+			_root.seat_price = parseInt(_root.dd_stellite_06);
+		}
+		else if(_root.size == "08") {
+			_root.seat_price = parseInt(_root.dd_stellite_08);
+		}
+		else if(_root.size == "10") {
+			_root.seat_price = parseInt(_root.dd_stellite_10);
+		}
+	}
+	//service price
+	if(_root.service == "Dust Tight") {
+		if(_root.size == "03") {
+			_root.service_price = parseInt(_root.dd_dust_03);
+		}
+		else if(_root.size == "04") {
+			_root.service_price = parseInt(_root.dd_dust_04);
+		}
+		else if(_root.size == "06") {
+			_root.service_price = parseInt(_root.dd_dust_06);
+		}
+		else if(_root.size == "08") {
+			_root.service_price = parseInt(_root.dd_dust_08);
+		}
+		else if(_root.size == "10") {
+			_root.service_price = parseInt(_root.dd_dust_10);
+		}
+	}
+	// operator price
+	if(_root.operator == "No Operator") {
+		if(_root.size == "03") {
+			_root.operator_price = parseInt(_root.dd_none_03);
+		}
+		else if(_root.size == "04") {
+			_root.operator_price = parseInt(_root.dd_none_04);
+		}
+		else if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.dd_none_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.dd_none_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.dd_none_10);
+		}
+	}
+	else if(_root.operator == "Manual Lever") {
+		if(_root.size == "03") {
+			_root.operator_price = parseInt(_root.dd_manual_03);
+		}
+		else if(_root.size == "04") {
+			_root.operator_price = parseInt(_root.dd_manual_04);
+		}
+		else if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.dd_manual_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.dd_manual_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.dd_manual_10);
+		}
+	}
+	else if(_root.operator == "Air - Double Acting") {
+		if(_root.size == "03") {
+			_root.operator_price = parseInt(_root.dd_double_acting_03);
+		}
+		else if(_root.size == "04") {
+			_root.operator_price = parseInt(_root.dd_double_acting_04);
+		}
+		else if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.dd_double_acting_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.dd_double_acting_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.dd_double_acting_10);
+		}
+	}
+	else if(_root.operator == "Air - Spring Return") {
+		if(_root.size == "03") {
+			_root.operator_price = parseInt(_root.dd_spring_return_03);
+		}
+		else if(_root.size == "04") {
+			_root.operator_price = parseInt(_root.dd_spring_return_04);
+		}
+		else if(_root.size == "06") {
+			_root.operator_price = parseInt(_root.dd_spring_return_06);
+		}
+		else if(_root.size == "08") {
+			_root.operator_price = parseInt(_root.dd_spring_return_08);
+		}
+		else if(_root.size == "10") {
+			_root.operator_price = parseInt(_root.dd_spring_return_10);
+		}
+	}
+	}
+}

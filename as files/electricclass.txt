@@ -1,0 +1,16 @@
+onClipEvent(enterFrame) {
+	if((_root.operator == "Manual Lever") or (_root.operator == "No Operator") or (_root.operator == "Operator") or (_root.control == "No Control" && _root.feedback == "No Feedback")) {
+		this._alpha = 50;
+		this.button.enabled = false;
+		_root.ec = "Electrical Class";
+		_root.ec_disp = "Unavailable";
+		_root.ec_price = 0;
+	}
+	else {
+		this._alpha = 100;
+		this.button.enabled = true;
+		if(_root.ec == "Electrical Class") {
+			_root.ec_disp = "please specify";
+		}
+	}
+}

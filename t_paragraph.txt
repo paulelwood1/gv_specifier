@@ -1,0 +1,135 @@
+T Valve
+
+With this text file you can modify the sentences as they appear in the descriptive paragraphs pertaining to the T Valve.
+
+Please disregard all ampersands.
+
+
+
+Materials
+
+Stainless 316/CF8M
+&t_mat_stainless=The valve body, shut-off disc are ANSI CF8M (316 Stainless Steel). The stem is 316 Stainless Steel with reinforced Teflon bushings.&
+
+Cast Iron
+&t_mat_castiron=The valve body is Cast Iron. The shut-off disc is ANSI CF8M Stainless Steel and the stem is 316 Stainless Steel with reinforced Teflon bushings.&
+
+Hastelloy
+&t_mat_hastelloy=The valve body, shut-off disc are Hastelloy C276. The stem is Hastelloy with reinforced Teflon bushings.&
+
+
+
+Size
+
+&t_size_03d=The valve has a 3" port opening and a 5-5/8" discharge opening.&
+&t_size_04d=The valve has a 4" port opening and a 8-1/8" discharge opening.&
+&t_size_06d=The valve has a 6" port opening and a 10" discharge opening.&
+&t_size_08d=The valve has a 8" port opening and a 12-3/4" discharge opening.&
+&t_size_10d=The valve has a 10" port opening and a 14-1/8" discharge opening.&
+&t_size_12d=The valve has a 12" port opening and a 20" discharge opening.&
+&t_size_14d=The valve has a 14" port opening and a 22" discharge opening.&
+&t_size_16d=The valve has a 16" port opening and a 25" discharge opening.&
+&t_size_20d=The valve has a 20" port opening and a 31" discharge opening.&
+
+
+
+
+Finishes
+
+Cast Sand Blasted
+&t_internal_cast_sand=The surface is cast sand blasted.&
+
+Cast Machined Internal
+&t_internal_cast_machined=The internal will be machined 32 micro-inch and the external is cast sand blasted.&
+
+
+
+
+Drilling
+
+Gemco Standard
+&t_drilling_gemco=The flanges will be drilled Gemco Standard bolt pattern.&
+
+Gemco ANSI 150
+&t_drilling_ansi1=The flanges will be drilled to a&
+&t_drilling_ansi2=" ANSI pattern.&
+
+
+
+
+Seats
+
+Teflon
+&t_seat_teflon=The seat ring will be reinforced PTFE.&
+
+Stellite
+&t_seat_stellite=The seat ring will be Stellite # 21 and the shut-off disc will be overlaid with Stellite # 6 in the sealing area.&
+
+
+
+
+Service
+
+Dust Tight
+&t_service_dust=The shut-off is rated ANSI Class IV dust tight service.&
+
+Vacuum
+&t_service_vacuum=The shut-off is set for pressure assisted vacuum service.&
+
+Low Pressure
+&t_service_low_pressure=The shut-off is designed for pressure assisted sealing up to 30 PSI.&
+
+
+
+Operators
+
+No Operator
+&t_op_none1=The valve will be supplied bare shaft suitable for mounting of a double acting actuator with ISO 5211 &
+&t_op_none2= mounting pattern.&
+
+Manual Lever
+&t_op_manual=The valve will be operated by a manual lever.&
+
+Air - Double Acting
+&t_op_double=The valve will be operated by a double-acting pneumatic actuator requiring 80 PSI air supply.&
+
+Air - Spring Return
+&t_op_spring=The valve will be operated by a spring-return fail-closed pneumatic actuator requiring 80 PSI air supply.&
+
+
+
+Control
+
+Solenoid
+&t_control_solenoid=The actuator will be controlled by a NAMUR, pad mounted, normally closed, single solenoid control valve.&
+
+Pneumatic Positioner
+&t_control_pneu=The actuator will be controlled by a pneumatic positioner accepting a 3 to 15 PSI control signal supplied by others.&
+
+Electro-Pneumatic Positioner
+&t_control_electro=The actuator will be controlled by a electro-pneumatic positioner accepting a 4 to 20 mili amp signal supplied by others.&
+
+
+
+Electrical Classes
+
+Wash Down NEMA 4
+&t_ec_washdown=Electrical equipment will meet NEMA 4 for wash down environment rated for &
+
+X-Proof NEMA 7&9
+&t_ec_xproof=Electrical equipment will meet NEMA 7&9 for explosion proof environment rated for &
+
+Intrinsically Safe
+&t_ec_is=Electrical equipment will be rated intrinsically safe.&
+
+
+
+
+Feedback
+
+Position Indicator
+&t_position_ind=Feedback will be supplied by two limit switches and a ANSI black and yellow visual open/closed indicator.&
+
+Visible Beacon
+&t_vis_beacon=Feedback will be supplied by a ANSI black and yellow visual open/closed indicator.&
+

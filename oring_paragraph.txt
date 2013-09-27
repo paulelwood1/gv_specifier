@@ -1,0 +1,7 @@
+O-Ring Material paragraph phrases
+
+&op_viton=O-rings will be Viton.&
+&op_silicone=O-rings will be Silicone.& 
+&op_epdm=O-rings will be EPDM.&
+&op_fepviton=O-rings will be Teflon (FEP) encapsulated Viton.&
+&op_fepsilicone=O-rings will be Teflon (FEP) encapsulated Silicone.&

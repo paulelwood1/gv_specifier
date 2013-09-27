@@ -1,0 +1,117 @@
+P21 Valve
+
+With this text file you can modify the sentences as they appear in the descriptive paragraphs pertaining to the P21 Valve.
+
+Please disregard all ampersands.
+
+
+
+Materials
+
+Stainless 316L/CF3M
+&p_mat_stainless=The valve body, shut-off disc are 316L stainless steel. The stem is Ferralium with Peek bushings.&
+
+Carbon Steel
+&p_mat_carbon=The valve body, shut-off disc are carbon steel. The stem is 1040 Steel with Peek bushings.&
+
+Hastelloy
+&p_mat_hastelloy=The valve body, shut-off disc are Hastelloy C276. The stem is Hastelloy with Peek bushings.&
+
+
+
+
+Finishes
+
+Fabricated Polished #4
+&p_internal_fp4=The internal will be finished to # 4 satin polish (180 to 240 grit) with an external #2 appearance finish.&
+
+Mirror Polished #7
+&p_internal_mp7=The internal will be finished to # 7 mirror polish (240 to 320 grit) with an external #2 appearance finish.&
+
+Fabricated #2
+&p_internal_f2=Internal welds will be ground smooth and flush, external mill finish.&
+
+
+
+Seats
+
+Teflon
+&p_seat_teflon=The seat ring will be reinforced PTFE.&
+
+Stellite
+&p_seat_stellite=The seat ring will be Stellite # 21 and the shut-off disc will be overlaid with Stellite # 6 in the sealing area.&
+
+
+
+
+Service
+
+Dust Tight
+&p_service_dust=The shut-off is rated ANSI Class I dust tight service.&
+
+Vacuum
+&p_service_vacuum=The shut-off is set for pressure assisted vacuum service.&
+
+Low Pressure
+&p_service_low_pressure=The shut-off is designed for pressure assisted sealing up to 30 PSI.&
+
+Pressure
+&p_service_pressure=The shut-off is designed for pressure assisted sealing up to 90 PSI.&
+
+High Pressure
+&p_service_high_pressure=The shut-off is designed for pressure assisted sealing up to 150 PSI.&
+
+
+
+Operators
+
+No Operator
+&p_op_none1=The valve will be supplied bare shaft suitable for mounting of a double acting actuator with ISO 5211 &
+&p_op_none2= mounting pattern.&
+
+Manual Lever
+&p_op_manual=The valve will be operated by a manual lever.&
+
+Air - Double cting
+&p_op_double=The valve will be operated by a double-acting pneumatic actuator requiring 80 PSI air supply.&
+
+Air - Spring Return
+&p_op_spring=The valve will be operated by a spring-return fail-closed pneumatic actuator requiring 80 PSI air supply.&
+
+
+
+Control
+
+Solenoid
+&p_control_solenoid=The actuator will be controlled by a NAMUR, pad mounted, normally closed, single solenoid control valve.&
+
+Pneumatic Positioner
+&p_control_pneu=The actuator will be controlled by a pneumatic positioner accepting a 3 to 15 PSI control signal supplied by others.&
+
+Electro-Pneumatic Positioner
+&p_control_electro=The actuator will be controlled by a electro-pneumatic positioner accepting a 4 to 20 mili amp signal supplied by others.&
+
+
+
+Electrical Classes
+
+Wash Down NEMA 4
+&p_ec_washdown=Electrical equipment will meet NEMA 4 for wash down environment rated for &
+
+X-Proof NEMA 7&9
+&p_ec_xproof=Electrical equipment will meet NEMA 7&9 for explosion proof environment rated for &
+
+Intrinsically Safe
+&p_ec_is=Electrical equipment will be rated intrinsically safe.&
+
+
+
+
+Feedback
+
+Position Indicator
+&p_position_ind=Feedback will be supplied by two limit switches and an ANSI black and yellow visual open/closed indicator.&
+
+Visible Beacon
+&p_vis_beacon=Feedback will be supplied by an ANSI black and yellow visual open/closed indicator.&
+

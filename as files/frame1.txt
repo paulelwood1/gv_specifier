@@ -1,0 +1,107 @@
+stop();
+//load .txt vars
+loadVariables("k_valve.txt" , "");
+loadVariables("k_paragraph.txt" , "");
+loadVariables("generic.txt" , "");
+loadVariables("sani_valve.txt" , "");
+loadVariables("sani_paragraph.txt" , "");
+loadVariables("p21_valve.txt" , "");
+loadVariables("p21_paragraph.txt" , "");
+loadVariables("help.txt" , "");
+loadVariables("disclaimer.txt" , "");
+loadVariables("t_valve.txt" , "");
+loadVariables("t_paragraph.txt" , "");
+loadVariables("tld_valve.txt" , "");
+loadVariables("tld_paragraph.txt" , "");
+loadVariables("d2_valve.txt" , "");
+loadVariables("d2_paragraph.txt" , "");
+loadVariables("gmc_valve.txt" , "");
+loadVariables("gmc_paragraph.txt" , "");
+loadVariables("cone_valve.txt" , "");
+loadVariables("cone_paragraph.txt" , "");
+loadVariables("dd_valve.txt" , "");
+loadVariables("dd_paragraph.txt" , "");
+loadVariables("rs_valve.txt" , "");
+loadVariables("rs_paragraph.txt" , "");
+loadVariables("oring.txt" , "");
+loadVariables("oring_paragraph.txt" , "");
+//look for var "valve" from the HTML query string - don't use this in an .exe
+if(valve == "null") {
+	_root.valve = "Product";
+	_root.valve_disp = "please specify";
+}
+else {
+	valve_disp = valve;
+}
+//default vars
+_root.ec = "Electrical Class";
+_root.ec_disp = "please specify";
+_root.drilling = "Mounting";
+_root.drilling_disp = "please specify";
+_root.feedback = "Feedback";
+_root.feedback_disp = "please specify";
+_root.material = "Material";
+_root.material_disp = "please specify";
+_root.size = "Size";
+_root.size_disp = "please specify";
+_root.finish = "Finish";
+_root.finish_disp = "please specify";
+_root.seat = "Seat";
+_root.seat_disp = "please specify";
+_root.service = "Service";
+_root.service_disp = "please specify";
+_root.operator = "Operator";
+_root.operator_disp = "please specify";
+_root.control = "Control";
+_root.control_disp = "please specify";
+_root.voltage = "Voltage";
+_root.voltage_disp = "please specify";
+_root.oring = "O-Ring Material";
+_root.oring_disp = "please specify";
+_root.pulldown1 = 0;
+_root.pulldown2 = 0;
+_root.pulldown3 = 0;
+_root.pulldown4 = 0;
+_root.pulldown5 = 0;
+_root.pulldown6 = 0;
+_root.pulldown7 = 0;
+_root.pulldown8 = 0;
+_root.pulldown9 = 0;
+_root.pulldown10 = 0;
+_root.pulldown11 = 0;
+_root.pulldown12 = 0;
+_root.pulldown13 = 0;
+_root.pulldown_c = 0;
+_root.alt_pi1 = 0;
+_root.alt_pi2 = 0;
+_root.valve_price = 0;
+_root.finish_price = 0;
+_root.drilling_price = 0;
+_root.seat_price = 0;
+_root.control_price = 0;
+_root.service_price = 0;
+_root.operator_price = 0;
+_root.feedback_price = 0;
+_root.ec_price = 0;
+_root.voltage_price = 0;
+_root.oring_price = 0;
+// code for button availability
+_root.more_enabled = 0;
+_root.review_enabled = 0;
+//help MC variables
+_root.help = 0;
+_root.instructions = 0;
+_root.all_chosen = 0;
+// contact & submittal  variables
+_root.firstname = "";
+_root.lastname = "";
+_root.email = "";
+_root.phone = "";
+_root.company = "";
+_root.submittal_id = 0;
+_root.submit_function = "";
+_root.submit_function_disp = "";
+//function for sending vars to php
+function sendVars() {
+	loadVariablesNum("http://www.gemcovalves.com/php/submit.php" , 0 , "POST");
+}

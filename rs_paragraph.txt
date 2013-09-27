@@ -1,0 +1,111 @@
+Retractable sleeve
+
+With this text file you can modify the sentences as they appear in the descriptive paragraphs pertaining to the Retractable sleeve.
+
+Please disregard all ampersands.
+
+
+
+Mounting
+
+ANSI 150
+&rs_drilling_ansi=The valve will be drilled to ANSI 150.&
+
+Gemco Standard
+&rs_drilling_gemco=The valve will be drilled to Gemco Standard.&
+
+
+
+Materials
+
+Stainless 316L/CF3M
+&rs_mat_stainless=The flanges are 316L stainless steel.& 
+
+Carbon Steel
+&rs_mat_carbon=The flanges are carbon steel.&
+
+Hastelloy
+&rs_mat_hastelloy=The flanges are Hastelloy C276.&
+
+
+
+
+Finishes
+
+Fabricated Polished #4
+&rs_internal_fp4=The internal will be finished to # 4 satin polish (180 to 240 grit) with an external #2 appearance finish.&
+
+Mirror Polished #7
+&rs_internal_mp7=The internal will be finished to # 7 mirror polish (240 to 320 grit) with an external #2 appearance finish.&
+
+Fabricated #2
+&rs_internal_f2=Internal welds will be ground smooth and flush, external mill finish.&
+
+
+
+
+Sleeve
+
+Neopreen
+&rs_sleeve_neopreen=The sleeve will be Neopreen.&
+
+Viton
+&rs_sleeve_viton=The The sleeve will be Viton.&
+
+
+
+
+Service
+
+Dust Tight
+&rs_service_dust=The shut-off is rated ANSI Class I dust tight service.&
+
+
+
+
+Operators
+
+Air - Double cting
+&rs_op_double=The sleeve will be operated by double-acting pneumatic clinders requiring 80 PSI air supply.&
+
+Air - Spring Return
+&rs_op_spring=The sleeve will be operated by spring-return pneumatic cylinders requiring 80 PSI air supply.&
+
+
+
+Control
+
+Solenoid
+&rs_control_solenoid=The actuator will be controlled by a normally closed, single solenoid control valve.&
+
+&rs_control_pneu=The actuator will be controlled by controlled by a pneumatic positioner.& 
+
+&rs_control_electro=The actuator will be controlled by controlled by an electro-pneumatic positioner.& 
+
+
+
+
+Electrical Classes
+
+Wash Down NEMA 4
+&rs_ec_washdown=Electrical equipment will meet NEMA 4 for wash down environment rated for &
+
+X-Proof NEMA 7&9
+&rs_ec_xproof=Electrical equipment will meet NEMA 7&9 for explosion proof environment rated for &
+
+Intrinsically Safe
+&rs_ec_is=Electrical equipment will be rated intrinsically safe.&
+
+
+
+
+Feedback
+
+Limit Switches
+&rs_position_ind=Feedback will be supplied by two limit switches.&
+
+Visual Beacon
+&rs_vis_beacon=Feedback will be supplied by a visual beacon.&
+
+
+
